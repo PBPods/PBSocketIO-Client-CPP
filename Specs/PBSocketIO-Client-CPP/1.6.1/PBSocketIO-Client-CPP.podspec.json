@@ -1,0 +1,22 @@
+{
+  "name": "PBSocketIO-Client-CPP",
+  "version": "1.6.1",
+  "summary": "Prebuild pod - Socket.IO client C++ implementation",
+  "homepage": "https://github.com/PBPods/PBSocketIO-Client-CPP",
+  "source": {
+    "http": "https://github.com/PBPods/PBSocketIO-Client-CPP/releases/download/1.6.1/libsioclient_1.6.1.zip"
+  },
+  "authors": {
+    "Melo Yao": "melode11@gmail.com",
+    "BB9z": "bb9z@me.com"
+  },
+  "requires_arc": true,
+  "license": {
+    "type": "MIT"
+  },
+  "vendored_libraries": "Library/*.a",
+  "source_files": "Headers/*.h",
+  "platforms": {
+    "ios": "6.0"
+  }
+}
